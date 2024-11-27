@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "periodity:steel"
+    }
+  ],
+  "result": {
+    "item": "periodity:steel-nugget",
+    "count": 9
+  }
+}

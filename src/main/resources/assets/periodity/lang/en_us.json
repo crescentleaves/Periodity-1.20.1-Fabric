@@ -6,6 +6,21 @@
   "item.periodity.molten-gold": "Molten Gold",
   "item.periodity.rose-gold": "Rose Gold Ingot",
 
+  "item.periodity.steel-nugget": "Steel Nugget",
+  "item.periodity.rose-gold-nugget": "Rose Gold Nugget",
+
+  "item.periodity.steel-axe": "Steel Axe",
+  "item.periodity.steel-pickaxe": "Steel Pickaxe",
+  "item.periodity.steel-shovel": "Steel Shovel",
+  "item.periodity.steel-sword": "Steel Sword",
+  "item.periodity.steel-hoe": "Steel Hoe",
+
+  "item.periodity.rose-gold-axe": "Rose Gold Axe",
+  "item.periodity.rose-gold-pickaxe": "Rose Gold Pickaxe",
+  "item.periodity.rose-gold-shovel": "Rose Gold Shovel",
+  "item.periodity.rose-gold-sword": "Rose Gold Sword",
+  "item.periodity.rose-gold-hoe": "Rose Gold Hoe",
+
   "block.periodity.steel-block": "Block of Steel",
   "block.periodity.rose-gold-block": "Block of Rose Gold",
 

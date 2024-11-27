@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "   ",
-    "BA ",
-    "AB "
+    "###",
+    "###",
+    "###"
   ],
   "key": {
-    "B": {
-      "item": "periodity:molten-copper"
-    },
-    "A": {
-      "item": "periodity:molten-gold"
+    "#": {
+      "item": "periodity:rose-gold-nugget"
     }
   },
   "result": {

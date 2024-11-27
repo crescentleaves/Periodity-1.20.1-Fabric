@@ -22,8 +22,23 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL);
                         entries.add(ModItems.ROSE_GOLD);
 
+                        entries.add(ModItems.STEEL_NUGGET);
+                        entries.add(ModItems.ROSE_GOLD_NUGGET);
+
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.ROSE_GOLD_BLOCK);
+
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_SHOVEL);
+                        entries.add(ModItems.STEEL_SWORD);
+                        entries.add(ModItems.STEEL_HOE);
+
+                        entries.add(ModItems.ROSE_GOLD_AXE);
+                        entries.add(ModItems.ROSE_GOLD_PICKAXE);
+                        entries.add(ModItems.ROSE_GOLD_SHOVEL);
+                        entries.add(ModItems.ROSE_GOLD_SWORD);
+                        entries.add(ModItems.ROSE_GOLD_HOE);
 
 
                     }).build());
