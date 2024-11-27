@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "B": {
+      "item": "periodity:molten-iron"
+    },
+    "A": {
+      "item": "periodity:carbon"
+    }
+  },
+  "result": {
+    "item": "periodity:steel"
+  }
+}

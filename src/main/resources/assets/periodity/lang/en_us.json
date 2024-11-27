@@ -1,0 +1,14 @@
+{
+  "item.periodity.steel": "Steel Ingot",
+  "item.periodity.carbon": "Carbon",
+  "item.periodity.molten-iron": "Molten Iron",
+  "item.periodity.molten-copper": "Molten Copper",
+  "item.periodity.molten-gold": "Molten Gold",
+  "item.periodity.rose-gold": "Rose Gold Ingot",
+
+  "block.periodity.steel-block": "Block of Steel",
+  "block.periodity.rose-gold-block": "Block of Rose Gold",
+
+  "itemgroup.periodity": "Periodity"
+
+}

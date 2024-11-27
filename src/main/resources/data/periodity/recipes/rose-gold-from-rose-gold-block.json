@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "periodity:rose-gold-block"
+    }
+  ],
+  "result": {
+    "item": "periodity:rose-gold",
+    "count": 9
+  }
+}

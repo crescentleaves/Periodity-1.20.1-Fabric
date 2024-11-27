@@ -7,5 +7,6 @@ public class PeriodityDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
+
 	}
 }
