@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "periodity",
+	"version": "${version}",
+	"name": "Periodity",
+	"description": "An alloy mod about creating great tools and items that have their own benefits. Adds Molten Ores, Carbon and many more",
+
+	"authors": [
+		"Dorvake"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/periodity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.paralleldv.alloymod.Periodity"
+		],
+		"client": [
+			"org.paralleldv.alloymod.PeriodityClient"
+		],
+		"fabric-datagen": [
+			"org.paralleldv.alloymod.PeriodityDataGenerator"
+		]
+	},
+	"mixins": [
+		"periodity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
