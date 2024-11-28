@@ -1,10 +1,11 @@
 {
   "item.periodity.steel": "Steel Ingot",
-  "item.periodity.carbon": "Carbon",
+  "item.periodity.carbon": "Carbon Powder",
   "item.periodity.molten-iron": "Molten Iron",
   "item.periodity.molten-copper": "Molten Copper",
   "item.periodity.molten-gold": "Molten Gold",
   "item.periodity.rose-gold": "Rose Gold Ingot",
+  "item.periodity.carbon-brick": "Carbon Brick",
 
   "item.periodity.steel-nugget": "Steel Nugget",
   "item.periodity.rose-gold-nugget": "Rose Gold Nugget",

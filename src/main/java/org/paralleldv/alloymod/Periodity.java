@@ -2,6 +2,7 @@ package org.paralleldv.alloymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.paralleldv.alloymod.block.ModBlocks;
 import org.paralleldv.alloymod.item.ModItemGroups;
 import org.paralleldv.alloymod.item.ModItems;
@@ -21,5 +22,7 @@ public class Periodity implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.CARBON_BRICK,6400);
 	}
 }

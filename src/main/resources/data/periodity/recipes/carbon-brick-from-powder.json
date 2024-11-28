@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "CC ",
+    "CC "
+  ],
+  "key": {
+    "B": {
+      "item": "periodity:carbon"
+    }
+
+  },
+  "result": {
+    "item": "periodity:carbon-brick"
+  }
+}
