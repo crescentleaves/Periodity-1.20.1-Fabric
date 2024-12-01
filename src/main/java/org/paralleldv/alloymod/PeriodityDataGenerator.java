@@ -29,7 +29,5 @@ public class PeriodityDataGenerator implements DataGeneratorEntrypoint {
 			new PeriodityBlockGenerator().generateRecipes(exporter);
 			new PeriodityToolGenerator().generateRecipes(exporter);
 		}
-
 	}
-
 }

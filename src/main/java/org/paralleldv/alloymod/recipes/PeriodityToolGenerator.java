@@ -27,7 +27,7 @@ public class PeriodityToolGenerator {
         }
     };
 
-    private final Map<ItemConvertible, String[]> STEEL_TOOLS = new HashMap<> () {
+    private final Map<ItemConvertible, String[]> STEEL_TOOLS = new HashMap<>() {
         {
             put(ModItems.STEEL_SWORD, ToolPatterns.SWORD);
             put(ModItems.STEEL_AXE, ToolPatterns.AXE);
@@ -42,22 +42,23 @@ public class PeriodityToolGenerator {
         this.generateToolRecipesForMaterial(exporter, ModItems.ROSE_GOLD, ROSE_GOLD_TOOLS);
     }
 
-    private void generateToolRecipesForMaterial(Consumer<RecipeJsonProvider> exporter, ItemConvertible material, Map<ItemConvertible, String[]> tools) {
+    private void generateToolRecipesForMaterial(Consumer<RecipeJsonProvider> exporter, ItemConvertible material,
+            Map<ItemConvertible, String[]> tools) {
         tools.forEach((tool, pattern) -> {
             this.generateToolRecipeForTool(exporter, material, tool, pattern);
         });
     }
 
-    private void generateToolRecipeForTool(Consumer<RecipeJsonProvider> exporter, ItemConvertible material, ItemConvertible tool, String[] pattern) {
+    private void generateToolRecipeForTool(Consumer<RecipeJsonProvider> exporter, ItemConvertible material,
+            ItemConvertible tool, String[] pattern) {
         ShapedRecipeJsonBuilder
-            .create(RecipeCategory.TOOLS, tool)
-            .input(ToolPatternTypes.MATERIAL, material)
-            .input(ToolPatternTypes.HANDLE, Items.STICK)
-            .pattern(pattern[0])
-            .pattern(pattern[1])
-            .pattern(pattern[2])
-            .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem((material)))
-            .offerTo(exporter);
+                .create(RecipeCategory.TOOLS, tool)
+                .input(ToolPatternTypes.MATERIAL, material)
+                .input(ToolPatternTypes.HANDLE, Items.STICK)
+                .pattern(pattern[0])
+                .pattern(pattern[1])
+                .pattern(pattern[2])
+                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem((material)))
+                .offerTo(exporter);
     }
-
 }
