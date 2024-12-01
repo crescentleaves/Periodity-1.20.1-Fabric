@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
+  "category": "building",
+  "group": "rose-gold",
   "key": {
     "#": {
       "item": "periodity:rose-gold"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "periodity:rose-gold-block"
-  }
+  },
+  "show_notification": true
 }

@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
+  "category": "building",
+  "group": "steel",
   "key": {
     "#": {
       "item": "periodity:steel"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "periodity:steel-block"
-  }
+  },
+  "show_notification": true
 }

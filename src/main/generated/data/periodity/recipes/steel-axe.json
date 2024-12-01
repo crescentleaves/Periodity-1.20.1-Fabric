@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "II ",
-    "IS ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "S": {
+    "h": {
       "item": "minecraft:stick"
     },
-    "I": {
+    "m": {
       "item": "periodity:steel"
     }
   },
+  "pattern": [
+    "mm ",
+    "mh ",
+    " h "
+  ],
   "result": {
     "item": "periodity:steel-axe"
-  }
+  },
+  "show_notification": true
 }

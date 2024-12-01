@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
+  "group": "steel",
   "key": {
     "#": {
       "item": "periodity:steel-nugget"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "periodity:steel"
-  }
+  },
+  "show_notification": true
 }
