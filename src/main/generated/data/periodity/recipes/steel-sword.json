@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    " I ",
-    " I ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "S": {
+    "h": {
       "item": "minecraft:stick"
     },
-    "I": {
+    "m": {
       "item": "periodity:steel"
     }
   },
+  "pattern": [
+    " m ",
+    " m ",
+    " h "
+  ],
   "result": {
     "item": "periodity:steel-sword"
-  }
+  },
+  "show_notification": true
 }

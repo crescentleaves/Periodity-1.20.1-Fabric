@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    " I ",
-    " S ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "S": {
+    "h": {
       "item": "minecraft:stick"
     },
-    "I": {
+    "m": {
       "item": "periodity:rose-gold"
     }
   },
+  "pattern": [
+    " m ",
+    " h ",
+    " h "
+  ],
   "result": {
     "item": "periodity:rose-gold-shovel"
-  }
+  },
+  "show_notification": true
 }

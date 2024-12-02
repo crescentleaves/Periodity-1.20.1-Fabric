@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
+  "group": "rose-gold",
   "ingredients": [
     {
       "item": "periodity:rose-gold-block"
     }
   ],
   "result": {
-    "item": "periodity:rose-gold",
-    "count": 9
+    "count": 9,
+    "item": "periodity:rose-gold"
   }
 }

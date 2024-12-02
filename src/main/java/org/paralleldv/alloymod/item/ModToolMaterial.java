@@ -7,11 +7,10 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    STEEL(MiningLevels.IRON,950, 8f,2.5f,12,
+    STEEL(MiningLevels.IRON, 950, 8f, 2.5f, 12,
             () -> Ingredient.ofItems(ModItems.STEEL)),
-    ROSE_GOLD(MiningLevels.IRON,250, 10f,1f,18,
+    ROSE_GOLD(MiningLevels.IRON, 250, 10f, 1f, 18,
             () -> Ingredient.ofItems(ModItems.ROSE_GOLD));
-
 
     private final int miningLevel;
     private final int itemDurability;
@@ -20,7 +19,8 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability,
+            Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

@@ -13,16 +13,16 @@ import org.paralleldv.alloymod.Periodity;
 
 public class ModBlocks {
     public static final Block STEEL_BLOCK = registerBlock("steel-block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0F,8.0F)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0F, 8.0F)));
     public static final Block ROSE_GOLD_BLOCK = registerBlock("rose-gold-block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).strength(5.0F,7.0F)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).strength(5.0F, 7.0F)));
 
-    private  static Block registerBlock(String name, Block block) {
-        registerBlockItem(name,block);
+    private static Block registerBlock(String name, Block block) {
+        registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Periodity.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name,Block block) {
+    private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(Periodity.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }

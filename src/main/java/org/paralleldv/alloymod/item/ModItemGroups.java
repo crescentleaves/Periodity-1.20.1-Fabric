@@ -40,7 +40,6 @@ public class ModItemGroups {
                         entries.add(ModItems.ROSE_GOLD_SWORD);
                         entries.add(ModItems.ROSE_GOLD_HOE);
 
-
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,17 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
+  "group": "rose-gold",
   "key": {
     "#": {
       "item": "periodity:rose-gold-nugget"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "periodity:rose-gold"
-  }
+  },
+  "show_notification": true
 }
