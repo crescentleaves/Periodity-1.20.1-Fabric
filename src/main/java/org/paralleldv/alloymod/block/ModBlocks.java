@@ -28,6 +28,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Periodity.LOGGER.info("Registering mod blocks for" + Periodity.MOD_ID);
+        Periodity.LOGGER.info("Registering mod blocks for " + Periodity.MOD_ID);
     }
 }

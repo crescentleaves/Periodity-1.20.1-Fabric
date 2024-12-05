@@ -84,7 +84,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Periodity.LOGGER.info("Registering mod items for" + Periodity.MOD_ID);
+        Periodity.LOGGER.info("Registering mod items for " + Periodity.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register(ModItems::addItemstoIngredientItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)

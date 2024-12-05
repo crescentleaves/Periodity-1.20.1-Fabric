@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 public class Periodity implements ModInitializer {
 	public static final String MOD_ID = "periodity";
 
+
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -22,6 +23,6 @@ public class Periodity implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.CARBON_BRICK, 6400);
+		FuelRegistry.INSTANCE.add(ModItems.CARBON_BRICK,8000);
 	}
 }
