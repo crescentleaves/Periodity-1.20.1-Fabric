@@ -43,6 +43,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        Periodity.LOGGER.info("Registering item groups for" + Periodity.MOD_ID);
+        Periodity.LOGGER.info("Registering item groups for " + Periodity.MOD_ID);
     }
 }
