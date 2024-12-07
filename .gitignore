@@ -40,4 +40,4 @@ replay_*.log
 *.jfr
 
 # forge data gen
-src/main/generated/.cache/
+src/main/generated/
